@@ -1,0 +1,33 @@
+{
+    "name": "carmilla",
+    "displayName": "Carmilla",
+    "description": "Carmilla Dark Theme",
+    "version": "0.0.1",
+    "publisher": "Badane",
+    "icon": "icon.png",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/Badane/vscode-carmilla-theme.git"
+	},
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "carmilla",
+        "dracula",
+        "theme",
+        "dark"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Carmilla",
+                "uiTheme": "vs-dark",
+                "path": "./themes/carmilla-theme.json"
+            }
+        ]
+    }
+}
